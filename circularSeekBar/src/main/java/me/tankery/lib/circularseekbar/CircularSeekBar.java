@@ -467,7 +467,7 @@ public class CircularSeekBar extends View {
         mCirclePaint.setAntiAlias(true);
         mCirclePaint.setDither(true);
         mCirclePaint.setColor(mCircleColor);
-        mCirclePaint.setStrokeWidth(mCircleStrokeWidth);
+        mCirclePaint.setStrokeWidth(mCircleStrokeWidth/2);
         mCirclePaint.setStyle(Paint.Style.STROKE);
         mCirclePaint.setStrokeJoin(Paint.Join.ROUND);
         mCirclePaint.setStrokeCap(mCircleStyle);
